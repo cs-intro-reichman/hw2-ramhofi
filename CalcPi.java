@@ -10,20 +10,22 @@ public class CalcPi {
 		boolean possitiveOrNegative = false;
 
 		while (counter < calc) {
+
 			if (possitiveOrNegative == false){
 
 			sum = sum - (1.0 / divider);
 			possitiveOrNegative = true;	
 			} else {
-				
+
 				sum = sum + (1.0 / divider);
 				possitiveOrNegative = false;
 			}
+
              counter++;
 			 divider = divider + 2.0;
 		}
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi according to Java:     " + sum * 4.0);
+		System.out.println("pi, approximated:     " + sum * 4.0);
 
 	}
 }
