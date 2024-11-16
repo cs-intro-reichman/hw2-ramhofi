@@ -20,7 +20,7 @@ public class CalcPi {
 			 divider = divider + 2;
 		}
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi according to Java:   " + 4*sum);
+		System.out.println("pi according to Java:    " + 4.0 * sum);
 
 	}
 }
