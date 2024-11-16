@@ -7,9 +7,9 @@ public class Cheers {
             for (int i = 0; i < cheer.length(); i++){
                 char c = cheer.charAt(i);
                 if (anLetters.indexOf(c) != -1) {
-                        System.out.println("Give me an " + c + ": " + c);
+                        System.out.println("Give me an " + c + ": " + c + "!");
                 } else {
-                        System.out.println("Give me a " + c + ": " + c);
+                        System.out.println("Give me a " + c + ": " + c + "!");
                 }
             }
                 
