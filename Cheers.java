@@ -3,6 +3,7 @@ public class Cheers {
         public static void main(String[] args) {
 	    // Replace this comment with your code
             String cheer = args[0];
+            cheer = cheer.toUpperCase();
             String anLetters = "AEFHILMNORSX";
             for (int i = 0; i < cheer.length(); i++){
                 char c = cheer.charAt(i);
