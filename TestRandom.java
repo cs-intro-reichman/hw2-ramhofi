@@ -17,9 +17,11 @@ public  class  TestRandom {
 
 		}
 		System.out.println("> 0.5: " + greaterThanHalf + " times");
-		System.out.println("> 0.5: " + lessThanOrEqualToHalf + " times");
-		System.out.println("Ratio: " + (double) greaterThanHalf / lessThanOrEqualToHalf);
- 
+		System.out.println("<= 0.5: " + lessThanOrEqualToHalf + " times");
 
-	}
+		if (lessThanOrEqualToHalf !=0){
+			System.out.println("Ratio: " + (double) greaterThanHalf / lessThanOrEqualToHalf);	
+		}
+		
+ 	}
 }
