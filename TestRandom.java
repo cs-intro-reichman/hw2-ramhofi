@@ -2,5 +2,22 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		int N = Integer.parseInt(args[0]);
+		int greaterThanHalf = 0;
+		int lessThanOrEqualToHalf = 0;
+
+		for (int i = 0; i< N; i++) {
+			double randomValue = Math.random();
+			if (randomValue > 0.5){
+				greaterThanHalf = greaterThanHalf + 1;
+			} else {
+				lessThanOrEqualToHalf = lessThanOrEqualToHalf + 1;
+			}
+
+
+		}
+		System.out.println("Ratio: " + (double) greaterThanHalf / lessThanOrEqualToHalf);
+ 
+
 	}
 }
